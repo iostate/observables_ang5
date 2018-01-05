@@ -27,6 +27,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       }
     );
 
+    const OK = 'blah blah blah';
+
     const myObservable = Observable.create((observer: Observer<string>) => {
       // first callback
       setTimeout(() => {
